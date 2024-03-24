@@ -4,7 +4,7 @@
 - 클라이언트와 서버 양쪽을 모두 다룸으로써 서버에 대한 두려움을 낮춰드리고자 합니다.
 - 프론트엔드 개발을 위해 MySQL, mongoDB, Firebase 등을 찾아다니지 않아도 됩니다.
 
-## 다루는 내용
+## 사용 기술
 
 - core
   - NodeJS
@@ -21,9 +21,9 @@
 
 ## 목표
 
-- CRUD(Create, Read, Update, Delete)의 기본기를 다집니다.
-- 연습용 서버(REST API, GraphQL)를 직접 만들 수 있습니다.
-- 로컬에서 간단하게 DB를 구축하는 방법을 배웁니다.
+- CRUD(Create, Read, Update, Delete)의 기본기
+- 연습용 서버(REST API, GraphQL)를 직접 만들기
+- 로컬에서 간단하게 DB를 구축하는 방법
 
 ### 1. Client - 기본기능 구현
 
