@@ -1,0 +1,53 @@
+📢스택-리액트-토이프로젝트
+
+✅ 초기 환경 세팅 
+> npm  install -g yarn 얀 환경세팅
+root 경로의 package.json 에 추가하기
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspaces client start",
+    "server": "yarn workspaces server start"
+  }
+
+ 
+➡️ client 파일 경로에 설치 ==================================================================================
+> yarn add react react-dom next sass axios
+> yarn add --dev webpack
+
+✅ client 경로 package.js에 추가하기
+  "scripts": {
+    "start": "next"
+  }
+
+
+➡️ server 파일 경로에 설치 ==================================================================================
+> yarn init -y
+> yarn add express cors uuid
+> yarn add --dev nodemon => 파일이 변경됬을 때 마다 자동으로 서버를 새롭게 띄어주는 플러그인
+
+✅ server 경로 package.js에 추가하기
+  "scrips": {
+    "start": "nodemon ./src/index.js"
+  }
+
+
+
+➡️ 프로젝트 생성 방법 ==================================================================================
+1. client 경로에서 
+> yarn start
+2. root 경로에서 
+> yarn run client
+터미널에 뜨는 localhost:3000 클릭!
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,10 @@
-import MagList from "../components/MagList";
+import MsgList from "../components/MsgList";
 
 const index = () => {
   return (
     <>
       <h1>Hello</h1>
-      <MagList />
+      <MsgList />
     </>
   );
 };
