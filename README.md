@@ -1,4 +1,4 @@
-# 풀스택 리액트 토이프로젝트 - REST, GraphQL
+# 리액트 토이프로젝트 - REST, GraphQL
 
 - ReactJS 기반의 간단한 SNS 서비스를 만들면서 REST API 및 GraphQL을 연습
 - 클라이언트와 서버 양쪽을 모두 다룸
