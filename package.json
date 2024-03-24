@@ -1,0 +1,17 @@
+{
+  "name": "toy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/roy-jung/api-practice.git",
+  "author": "amilk5u <amilk5u@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspaces client start",
+    "server": "yarn workspaces server start"
+  }
+}
